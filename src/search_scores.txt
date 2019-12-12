@@ -1,0 +1,2 @@
+./documents/d3.txt : 0.477121
+./documents/d1.txt : 0.176091

@@ -1,7 +1,7 @@
 .PHONY: clean build all
 
 # compilation settings
-CC = gcc -lm
+CC = gcc
 CFLAGS = -I$(INCLUDE_DIR) -Wall -Wextra -Werror -pedantic -std=gnu99 -pedantic -Wmissing-prototypes -Wstrict-prototypes -Wold-style-definition -g
 LDFLAGS = ($(LDFLAGS))    
 # directory paths
