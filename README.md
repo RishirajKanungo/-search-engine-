@@ -9,7 +9,7 @@ The notes below will explain all you need to do to run the local "search-engine"
 If on Windows, make sure that you have downloaded C-Program Compiler (gcc). If on Mac/Linux, continue reading.
 
 ## Running "search-engine"
-To run the engine, first write into your terminal:
+To run the engine, first make sure that you are in the 'src' folder of the repo. Once there, write into your terminal:
 ```
 make
 ```
