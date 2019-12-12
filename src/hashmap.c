@@ -262,7 +262,7 @@ void stop_word(struct hashmap* hm){
 
   //glob structure to get information
   glob_t glob_struct;
-  int glob_val = glob("./p5docs/*.txt", 0, NULL, &glob_struct);
+  int glob_val = glob("./documents/*.txt", 0, NULL, &glob_struct);
 
   if(glob_val == 1){
     return;
@@ -485,7 +485,7 @@ void training(struct hashmap* hm){
 
   //glob structure to get information
   glob_t glob_struct;
-  int glob_val = glob("./p5docs/*.txt", 0, NULL, &glob_struct);
+  int glob_val = glob("./documents/*.txt", 0, NULL, &glob_struct);
 
   if(glob_val == 1){
     return;
@@ -554,7 +554,7 @@ void printhashmap(struct hashmap* hm){
   return;
 }
 
-//we want to take in each of the words and rank each document from the list of words
+
 void search_query(struct hashmap* hm, unsigned long totalDocuments,  char *argv[]){
   unsigned long i = 0;
 
@@ -571,7 +571,7 @@ void search_query(struct hashmap* hm, unsigned long totalDocuments,  char *argv[
 
   //glob structure to get information
   glob_t glob_struct;
-  int glob_val = glob("./p5docs/*.txt", 0, NULL, &glob_struct);
+  int glob_val = glob("./documents/*.txt", 0, NULL, &glob_struct);
 
   if(glob_val == 1){
     return;
